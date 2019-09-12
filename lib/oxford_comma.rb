@@ -6,5 +6,5 @@ fruit = array.length
   when fruit = 3
     array[-1].prepend "and "
     array.join(", ")
-  end 
+  end
 end
