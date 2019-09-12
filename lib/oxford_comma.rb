@@ -1,12 +1,11 @@
 def oxford_comma(array)
   basket = array.length
-  case basket
-  when basket == 2
+  if basket == 2
     array[-2] << " and "
     array.join
-  when basket == 1
+  elsif basket == 1
     array.join
-  when basket > 2
+  elsif basket > 2
     array[-1].prepend "and "
     array.join(", ")
   end
