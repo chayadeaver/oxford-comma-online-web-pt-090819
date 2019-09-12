@@ -1,6 +1,8 @@
 def oxford_comma(array)
 fruit = array.length
   case fruit
+  when fruit = 1
+    array.join
   when fruit == 2
     array.join(" and ")
   when fruit = 3
