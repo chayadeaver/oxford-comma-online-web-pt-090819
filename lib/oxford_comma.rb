@@ -1,12 +1,13 @@
 def oxford_comma(array)
-fruit = array.length
-  case fruit
-  when fruit = 1
+basket = array.length
+new_bag = ""
+  case basket
+  when basket = 1
     array.join
-  when fruit == 2
+  when basket == 2
     array[1] << " and "
-    array.join
-  when fruit = 3
+    new_bag = array.join
+  when basket = 3
     array[-1].prepend "and "
     array.join(", ")
   end
