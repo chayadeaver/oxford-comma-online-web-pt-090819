@@ -1,3 +1,10 @@
 def oxford_comma(array)
-  array.join(" and ")
+fruit = array.length
+  case fruit
+  when fruit == 2
+    array.join(" and ")
+  when fruit = 3
+    array[-1].prepend "and "
+    array.join(", ")
+  end 
 end
