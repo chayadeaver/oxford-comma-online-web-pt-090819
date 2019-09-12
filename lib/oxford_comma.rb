@@ -4,7 +4,8 @@ fruit = array.length
   when fruit = 1
     array.join
   when fruit == 2
-    array.join(" and ")
+    fruit2 = array.join(" and ")
+    fruit2
   when fruit = 3
     array[-1].prepend "and "
     array.join(", ")
